@@ -1,0 +1,85 @@
+{
+    "usuarios": [
+                    {
+                    "id": "usr_001",
+                    "nombre": "Alexis Napoli",
+                    "email": "alexis.napoli@gmail.com",
+                    "rol": "cliente",
+                    "ordenes": ["ord_1001"]
+                    },
+                    {
+                    "id": "usr_002",
+                    "nombre": "Federico Beron",
+                    "email": "federico.beron@gmail.com",
+                    "rol": "vendedor"
+                    }
+                ],
+    "comerciantes": [
+                        {
+                        "id": "mrc_001",
+                        "usuarioId": "usr_002",
+                        "nombre": "Tienda de Ropa",
+                        "descripcion": "Ropa urbana y deportiva"
+                        }
+                    ],
+    "productos": [
+                    {
+                    "id": "prd_100",
+                    "comercianteId": "mrc_001",
+                    "nombre": "Zapatillas de Running",
+                    "descripcion": "Zapatillas ligeras y cómodas para correr.",
+                    "precio": 18000,
+                    "etiquetas": ["deporte", "zapatillas"],
+                    "stock": 50,
+                    "calificacion": 4.7,
+                    "vendidos": 120
+                    },
+                    {
+                    "id": "prd_101",
+                    "comercianteId": "mrc_001",
+                    "nombre": "Camiseta Dry-Fit",
+                    "descripcion": "Remera deportiva transpirable.",
+                    "precio": 5500,
+                    "etiquetas": ["deporte", "remera"],
+                    "stock": 200,
+                    "calificacion": 4.5,
+                    "vendidos": 300
+                    }
+                ],
+    "ordenes":  [
+                    {
+                    "id": "ord_1001",
+                    "usuarioId": "usr_001",
+                    "comercianteId": "mrc_001",
+                    "estado": "entregada",
+                    "total": 5500,
+                    "productos": [
+                                    {
+                                    "productoId": "prd_101",
+                                    "nombre": "Camiseta Dry-Fit",
+                                    "precio": 5500,
+                                    "cantidad": 1
+                                    }
+                                ]
+                    }
+                ],
+    "reseñas": [
+                    {
+                    "id": "rev_001",
+                    "usuarioId": "usr_001",
+                    "productoId": "prd_101",
+                    "calificacion": 5,
+                    "comentario": "Muy cómoda para entrenar."
+                    }
+                ],
+    "promociones": [
+                    {
+                    "id": "prm_001",
+                    "titulo": "Promo Running",
+                    "descripcion": "20% de descuento en Zapatillas de Running",
+                    "descuento": 20,
+                    "activo": true,
+                    "productoId": "prd_100"
+                    }
+                ]     
+}
