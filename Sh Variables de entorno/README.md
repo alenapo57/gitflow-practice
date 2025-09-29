@@ -23,7 +23,7 @@ my_var="hola mundo"
 
 ---
 
-## 🖥️ Ejecución
+##  Ejecución
 
 1. Dar permisos de ejecución al script:
    ```bash
