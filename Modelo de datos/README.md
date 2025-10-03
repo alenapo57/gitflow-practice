@@ -19,7 +19,7 @@ La estructura está pensada para soportar consultas rápidas típicas de un e-co
 
 ---
 
-## 🔍 Consultas típicas (API REST)
+##  Consultas típicas (API REST)
 
 - **Listar productos por etiqueta y precio máximo**  
   `GET /productos?etiqueta=deporte&precioMax=10000`
