@@ -1,0 +1,8 @@
+Primera Ventana Necesaria 
+"C:\Program Files\MongoDB\Server\8.2\bin\mongod.exe"
+
+Conexión a MongoDB
+"C:\mongodb\Tools\mongosh\mongosh.exe"
+
+
+
