@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "68e419ce9e3c37eb5ecebea7"
+  },
+  "username": "usuario_vip",
+  "email": "vip@tienda.com",
+  "role": "admin",
+  "registered_at": {
+    "$date": "2025-10-06T19:34:38.607Z"
+  }
+}]

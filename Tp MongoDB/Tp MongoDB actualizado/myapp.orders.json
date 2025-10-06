@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "68e41b359e3c37eb5ecebeab"
+  },
+  "user_id": {
+    "$oid": "68e419ce9e3c37eb5ecebea7"
+  },
+  "date": {
+    "$date": "2025-10-06T19:40:37.090Z"
+  },
+  "status": "pending",
+  "total_amount": 50,
+  "items": [
+    {
+      "product_id": {
+        "$oid": "68e419e39e3c37eb5ecebea8"
+      },
+      "quantity": 1,
+      "price_at_purchase": 50
+    }
+  ]
+}]
