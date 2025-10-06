@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "68e41afa9e3c37eb5ecebea9"
+  },
+  "product_id": {
+    "$oid": "68e419e39e3c37eb5ecebea8"
+  },
+  "user_id": {
+    "$oid": "68e419ce9e3c37eb5ecebea7"
+  },
+  "rating": 5,
+  "comment": "Excelente mouse para gaming y trabajo.",
+  "date": {
+    "$date": "2025-10-06T19:39:38.397Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e41afa9e3c37eb5ecebeaa"
+  },
+  "product_id": {
+    "$oid": "68e419e39e3c37eb5ecebea8"
+  },
+  "user_id": {
+    "$oid": "68e419ce9e3c37eb5ecebea7"
+  },
+  "rating": 4,
+  "comment": "Buen producto, llego a tiempo.",
+  "date": {
+    "$date": "2025-10-06T19:39:38.397Z"
+  }
+}]

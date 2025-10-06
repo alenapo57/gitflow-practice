@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "68e0252ac57c229baacebea4"
+  },
+  "name": "Teclado Mecánico RGB",
+  "brand": "Razer",
+  "price": 150,
+  "stock": 10,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "68e0252ac57c229baacebea5"
+  },
+  "name": "Monitor Curvo 27",
+  "brand": "Dell",
+  "price": 480,
+  "stock": 5,
+  "available": true
+},
+{
+  "_id": {
+    "$oid": "68e0252ac57c229baacebea6"
+  },
+  "name": "Webcam 4K",
+  "brand": "Logitech",
+  "price": 130,
+  "stock": 15,
+  "available": true
+}]
+
+
+
+
+
+

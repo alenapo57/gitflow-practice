@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "68e419af9e3c37eb5ecebea4"
+  },
+  "name": "Electrónica",
+  "slug": "electro"
+},
+{
+  "_id": {
+    "$oid": "68e419af9e3c37eb5ecebea5"
+  },
+  "name": "Gaming",
+  "slug": "gaming"
+},
+{
+  "_id": {
+    "$oid": "68e419af9e3c37eb5ecebea6"
+  },
+  "name": "Hogar",
+  "slug": "hogar"
+}]
